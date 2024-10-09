@@ -4033,6 +4033,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 102.87) (xy 250.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4088af91-1110-427c-b2b7-80a7b798dd17")
+	)
+	(wire
+		(pts
 			(xy 15.24 48.26) (xy 31.75 48.26)
 		)
 		(stroke
@@ -4300,6 +4310,16 @@
 			(type default)
 		)
 		(uuid "6fca5470-1f03-4cc8-8bf9-ef3e82963bb6")
+	)
+	(wire
+		(pts
+			(xy 245.11 113.03) (xy 250.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754003cd-6062-4f54-9fb5-f1c08379c7fa")
 	)
 	(wire
 		(pts
@@ -4663,16 +4683,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 113.03) (xy 250.19 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a273ced9-53c6-411e-b832-762a0278923e")
-	)
-	(wire
-		(pts
 			(xy 24.13 45.72) (xy 35.56 45.72)
 		)
 		(stroke
@@ -4760,16 +4770,6 @@
 			(type default)
 		)
 		(uuid "b7925050-fb6b-435d-a172-a978dfdbcc20")
-	)
-	(wire
-		(pts
-			(xy 245.11 102.87) (xy 250.19 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d8e57b-c7d9-4f9a-9131-acae52ff8da3")
 	)
 	(wire
 		(pts
@@ -5238,7 +5238,7 @@
 	)
 	(global_label "A1_MS3_UART"
 		(shape input)
-		(at 245.11 102.87 180)
+		(at 245.11 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5248,7 +5248,7 @@
 		)
 		(uuid "48f56533-4485-45c4-8fca-cebd019abdd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.3644 102.87 0)
+			(at 229.3644 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5458,7 @@
 	)
 	(global_label "A1_MS3_SW"
 		(shape input)
-		(at 242.57 113.03 180)
+		(at 245.11 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5468,7 +5468,7 @@
 		)
 		(uuid "b0c1a579-ed51-4386-ab29-562e0304f2ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.8202 113.03 0)
+			(at 231.3602 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

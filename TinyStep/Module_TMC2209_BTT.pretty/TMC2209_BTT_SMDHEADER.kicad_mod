@@ -1,4 +1,4 @@
-(footprint "TMC2209_BTT"
+(footprint "TMC2209_BTT_SMDHEADER"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "TMC2209_BTT"
+	(property "Value" "TMC2209_BTT_SMDHEADER"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -189,154 +189,185 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" smd oval
 		(at -6.35 -8.89)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "bebc3d9b-ba7c-495a-bcf8-650f6298630c")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" smd oval
 		(at -6.35 -6.35)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "84de35c5-e134-4a0e-8aa6-5e451fbfddfa")
 	)
-	(pad "3" thru_hole circle
+	(pad "3" smd oval
 		(at -6.35 -3.81)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "0fb8ab61-d930-4e56-a4e1-e615ab7f8cb5")
 	)
-	(pad "4" thru_hole circle
+	(pad "4" smd oval
 		(at -6.35 -1.27)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "17c15da1-826e-4b85-8ec8-4e0442f76fdb")
 	)
-	(pad "5" thru_hole circle
+	(pad "5" smd oval
 		(at -6.35 1.27)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "c615ccca-16c9-48cf-a3ae-8b991a879736")
 	)
-	(pad "6" thru_hole circle
+	(pad "6" smd oval
 		(at -6.35 3.81)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "f5e596cb-3395-4680-8c20-9c108e6f073a")
 	)
-	(pad "7" thru_hole circle
+	(pad "7" smd oval
 		(at -6.35 6.35)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "0e6aa619-ca8f-4dbe-ab5f-30dcd41a8c6f")
 	)
-	(pad "8" thru_hole circle
+	(pad "8" smd oval
 		(at -6.35 8.89)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "eaeed225-2a7d-4463-a720-60da5109164a")
 	)
-	(pad "9" thru_hole circle
+	(pad "9" smd oval
 		(at 6.35 8.89)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "0744bc8e-18a1-44b4-a87d-3d0a9e5cfbdb")
 	)
-	(pad "10" thru_hole circle
+	(pad "10" smd oval
 		(at 6.35 6.35)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "126129f2-58ca-4c77-984b-605682235afb")
 	)
-	(pad "11" thru_hole circle
+	(pad "11" smd oval
 		(at 6.35 3.81)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "cf74ed6d-3435-4ec2-a6f2-f994a6e25f1d")
 	)
-	(pad "12" thru_hole circle
+	(pad "12" smd oval
 		(at 6.35 1.27)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "3a68923b-051d-4add-aa10-e6dc0bc1ecb8")
 	)
-	(pad "13" thru_hole circle
+	(pad "13" smd oval
 		(at 6.35 -1.27)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "0cc18002-5b2a-48e9-91ab-40ac40d0b4dc")
 	)
-	(pad "14" thru_hole circle
+	(pad "14" smd oval
 		(at 6.35 -3.81)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "98e57676-230f-45e3-8355-852501150642")
 	)
-	(pad "15" thru_hole circle
+	(pad "15" smd oval
 		(at 6.35 -6.35)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset 1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "ce469680-5ecc-4d70-bea7-7cb906c5cf69")
 	)
-	(pad "16" thru_hole circle
+	(pad "16" smd oval
 		(at 6.35 -8.89)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 4.5 1)
+		(drill
+			(offset -1.5 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
 		(uuid "c597742b-a465-4700-97b9-9a9b24be01a9")
 	)
 	(pad "17" thru_hole circle
 		(at -1.27 -8.89)
-		(size 1.7 1.7)
-		(drill 1)
+		(size 1.524 1.524)
+		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b65ec809-a759-40f9-a2df-edd532786174")
 	)
 	(pad "18" thru_hole circle
 		(at -3.81 -8.89)
-		(size 1.7 1.7)
-		(drill 1)
+		(size 1.524 1.524)
+		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "babdc284-7b3d-4536-8400-279005f1c468")
 	)
 	(model "${KIPRJMOD}/Module_TMC2209_BTT.pretty/TMC2209_BTT_onboard.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 9)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -345,10 +376,20 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/Module_TMC2209_BTT.pretty/TMC2209_BTT_socketed.step"
-		(hide yes)
+	(model "${KIPRJMOD}/Module_TMC2209_BTT.pretty/GNIAZDO DUPONT 1X8 SMD v1.step"
 		(offset
+			(xyz 6.37 -8.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Module_TMC2209_BTT.pretty/GNIAZDO DUPONT 1X8 SMD v1.step"
+		(offset
+			(xyz -6.37 -8.9 0)
 		)
 		(scale
 			(xyz 1 1 1)
